@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc
+}
+
+/* .appuimg{
+  width: 70%;
+  border-radius: 50%;
+  margin-left: 45%;
+  
+} */
+.main {
+  text-align: center;
+  margin-bottom: -157px;
+  margin-top: 179px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(173, 167, 167);
+  border-radius: 15px;
+  margin-top: 208px;
+  margin-left: 38%;
+  padding: 20px;
+  width: 326px;
+  height: 27px;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+}
+
+.ap {
+  margin-top: 45px;
+
+}
+
+.app {
+  margin-top: 45px;
+
+}
+
+.container img {
+  order: -1;
+  width: 20%;
+}
+
+.container:hover {
+  /* background-color: rgba(142, 180, 180, 0.285); */
+  cursor: pointer;
+  width: 328px;
+  height: 30px;
+  transform: translateY(-10px);
+}
